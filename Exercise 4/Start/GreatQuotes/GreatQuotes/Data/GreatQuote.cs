@@ -6,17 +6,17 @@
         Female,
     }
 
-	public class GreatQuote
-	{
+    public class GreatQuote
+    {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-		public string QuoteText { get; set; }
-        public Gender Gender { get; set; } 
+        public string QuoteText { get; set; }
+        public Gender Gender { get; set; }
 
-        public GreatQuote() 
+        public GreatQuote()
             : this(string.Empty, string.Empty, Gender.Male, string.Empty)
-		{
-		}
+        {
+        }
 
         public GreatQuote(string firstName, string lastName, Gender gender, string quoteText)
         {
