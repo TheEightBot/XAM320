@@ -2,12 +2,12 @@
 
 namespace GreatQuotes
 {
-	public partial class QuoteListPage : ContentPage
-	{
-		public QuoteListPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    public partial class QuoteListPage : ContentPage
+    {
+        public QuoteListPage ()
+        {
+            InitializeComponent ();
+        }
+    }
 }
 
