@@ -1,19 +1,19 @@
 ﻿using Xamarin.Forms;
 
 namespace GreatQuotes
-{	
+{
     public partial class QuoteListPage : ContentPage
-	{	
-        public QuoteListPage ()
-		{
+    {
+        public QuoteListPage()
+        {
             BindingContext = App.MainViewModel;
-			InitializeComponent ();
-		}
+            InitializeComponent();
+        }
 
         void OnQuoteSelected(object sender, ItemTappedEventArgs e)
         {
             Navigation.PushAsync(new QuoteDetailPage(), true);
         }
-	}
+    }
 }
 

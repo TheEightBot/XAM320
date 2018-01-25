@@ -11,7 +11,8 @@ namespace GreatQuotes.ViewModels
         public IList<QuoteViewModel> Quotes { get; private set; }
 
         QuoteViewModel selectedQuote;
-        public QuoteViewModel SelectedQuote {
+        public QuoteViewModel SelectedQuote
+        {
             get {
                 return selectedQuote;
             }

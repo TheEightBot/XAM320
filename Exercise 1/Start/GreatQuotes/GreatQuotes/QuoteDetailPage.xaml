@@ -19,18 +19,17 @@
 
 
         <StackLayout Orientation="Horizontal" Spacing="5"
-                Grid.Row="1" HorizontalOptions="End">
+                     Grid.Row="1" HorizontalOptions="End">
 
             <Label Text="{Binding FirstName}" 
-                TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
-                />
+                   TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
+                   />
             <Label Text="{Binding LastName}" 
-                TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
-                />
+                   TextColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}"
+                   />
 
         </StackLayout>
 
-       
     </Grid>
 
     </ContentPage>

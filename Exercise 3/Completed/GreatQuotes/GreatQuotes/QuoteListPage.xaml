@@ -5,21 +5,21 @@
     xmlns:me="clr-namespace:GreatQuotes;assembly=GreatQuotes"
     x:Class="GreatQuotes.QuoteListPage" Title="Quotes">
 
-    <ListView ItemsSource="{Binding Quotes}" 
-                SelectedItem="{Binding SelectedQuote, Mode=TwoWay}"
-                ItemTapped="OnQuoteSelected">
-  		<ListView.ItemTemplate>
-			<DataTemplate>
+    <ListView ItemsSource="{Binding Quotes}"
+              SelectedItem="{Binding SelectedQuote, Mode=TwoWay}"
+              ItemTapped="OnQuoteSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
                 <TextCell Text="{Binding QuoteText}"
-                        Detail="{Binding Author}" 
-                        DetailColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}">
+                          Detail="{Binding Author}"
+                          DetailColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}">
                     <TextCell.ContextActions>
                         <MenuItem Text="Edit" />
                         <MenuItem Text="Delete" IsDestructive="True" />
                     </TextCell.ContextActions>
                 </TextCell>
-  			</DataTemplate>
-  		</ListView.ItemTemplate>
+            </DataTemplate>
+        </ListView.ItemTemplate>
     </ListView>
 
 </ContentPage>

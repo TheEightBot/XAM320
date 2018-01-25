@@ -6,8 +6,8 @@
     x:Class="GreatQuotes.QuoteListPage" Title="Quotes">
 
     <ListView ItemsSource="{Binding}" ItemTapped="OnQuoteSelected">
-  		<ListView.ItemTemplate>
-			<DataTemplate>
+        <ListView.ItemTemplate>
+            <DataTemplate>
                 <TextCell Text="{Binding QuoteText}"
                         DetailColor="{Binding Gender, Converter={StaticResource genderToColorConverter}}">
                     <TextCell.ContextActions>
@@ -15,8 +15,8 @@
                         <MenuItem Text="Delete" IsDestructive="True" />
                     </TextCell.ContextActions>
                 </TextCell>
-  			</DataTemplate>
-  		</ListView.ItemTemplate>
+            </DataTemplate>
+        </ListView.ItemTemplate>
     </ListView>
 
 </ContentPage>

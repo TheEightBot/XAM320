@@ -21,14 +21,14 @@
                 TextColor="Blue"
                 HorizontalOptions="End" HorizontalTextAlignment="End">
             <Label.Triggers>
-                <DataTrigger TargetType="Label" 
-                            Binding="{Binding Gender}"
-                            Value="Female">
+                <DataTrigger TargetType="Label"
+                             Binding="{Binding Gender}"
+                             Value="Female">
                     <Setter Property="TextColor" Value="Pink" />
                 </DataTrigger>
             </Label.Triggers>
         </Label>
-       
+
     </Grid>
 
     </ContentPage>
