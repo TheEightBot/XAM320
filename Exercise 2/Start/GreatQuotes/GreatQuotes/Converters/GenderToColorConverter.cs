@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using GreatQuotes.Data;
+using System.Diagnostics;
 
 namespace GreatQuotes.Converters
 {
@@ -15,6 +16,7 @@ namespace GreatQuotes.Converters
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             Gender gender = (Gender)value;
+
             return gender == Gender.Male
                 ? Male
                 : Female;

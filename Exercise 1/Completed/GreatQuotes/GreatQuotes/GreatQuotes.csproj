@@ -36,19 +36,26 @@
     <Compile Include="Data\GreatQuote.cs" />
     <Compile Include="Data\QuoteManager.cs" />
     <Compile Include="Data\IQuoteLoader.cs" />
+    <Compile Include="QuoteListPage.xaml.cs">
+      <DependentUpon>QuoteListPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="QuoteDetailPage.xaml.cs">
       <DependentUpon>QuoteDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Converters\GenderToColorConverter.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\SimpleViewModel.cs" />
     <Compile Include="ViewModels\QuoteViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Converters\GenderToColorConverter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
     <EmbeddedResource Include="QuoteDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="App.xaml">

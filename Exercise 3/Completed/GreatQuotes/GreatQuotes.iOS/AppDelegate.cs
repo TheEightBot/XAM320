@@ -22,6 +22,9 @@ namespace GreatQuotes.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            UINavigationBar.Appearance.BarTintColor = UIColor.FromRGB (0x21,0x96,0xF3);
+            UINavigationBar.Appearance.TintColor = UIColor.White;
+
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

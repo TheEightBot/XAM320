@@ -13,6 +13,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GreatQuotes.Data", "GreatQu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatQuotes.UWP", "GreatQuotes\GreatQuotes.UWP\GreatQuotes.UWP.csproj", "{FAB6835D-8371-4162-AAC4-5400AB253135}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatQuotes.UnitTests", "GreatQuotes.UnitTests\GreatQuotes.UnitTests.csproj", "{5879C3CD-3023-4A1E-954F-F4CFFE519371}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		GreatQuotes\GreatQuotes.Data\GreatQuotes.Data.projitems*{030f0ff2-a92b-4722-8178-47a9a7323a30}*SharedItemsImports = 4
@@ -235,6 +237,46 @@ Global
 		{FAB6835D-8371-4162-AAC4-5400AB253135}.Release|x86.ActiveCfg = Release|x86
 		{FAB6835D-8371-4162-AAC4-5400AB253135}.Release|x86.Build.0 = Release|x86
 		{FAB6835D-8371-4162-AAC4-5400AB253135}.Release|x86.Deploy.0 = Release|x86
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|ARM.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|ARM.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.AppStore|x86.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Debug|x86.Build.0 = Debug|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|ARM.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|iPhone.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|x86.ActiveCfg = Release|Any CPU
+		{5879C3CD-3023-4A1E-954F-F4CFFE519371}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

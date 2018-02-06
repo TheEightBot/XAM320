@@ -119,6 +119,15 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\ic_action_new.png" />
+    <BundleResource Include="Resources\ic_action_new%402x.png" />
+    <BundleResource Include="Resources\ic_action_new%403x.png" />
+    <BundleResource Include="Resources\ic_delete.png" />
+    <BundleResource Include="Resources\ic_delete%402x.png" />
+    <BundleResource Include="Resources\ic_delete%403x.png" />
+    <BundleResource Include="Resources\ic_edit.png" />
+    <BundleResource Include="Resources\ic_edit%402x.png" />
+    <BundleResource Include="Resources\ic_edit%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -142,6 +151,23 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="XamU.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\XamarinUniversity.Core.1.0.161128\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\XamU.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XamU.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\XamarinUniversity.Infrastructure.1.0.170620\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\XamU.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_action_chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_action_chat%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_action_chat%403x.png" />
   </ItemGroup>
   <Import Project="..\GreatQuotes.Data\GreatQuotes.Data.projitems" Label="Shared" Condition="Exists('..\GreatQuotes.Data\GreatQuotes.Data.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

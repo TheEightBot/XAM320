@@ -1,6 +1,7 @@
 ﻿using System;
 using GreatQuotes.Data;
-using GreatQuotes.Infrastructure;
+using System.Collections.Generic;
+using XamarinUniversity.Infrastructure;
 
 namespace GreatQuotes.ViewModels
 {
@@ -59,9 +60,30 @@ namespace GreatQuotes.ViewModels
             }
         }
 
+        public IEnumerable<Gender> GenderChoices
+        {
+            get
+            {
+                yield return Gender.Male;
+                yield return Gender.Female;
+            }
+        }
+
+        internal GreatQuote Model
+        {
+            get { return quote; }
+        }
+
+        public QuoteViewModel()
+            : this(new GreatQuote())
+        {
+            QuoteText = "Enter some amazing saying here.";
+        }
+
         public QuoteViewModel(GreatQuote quote)
         {
             this.quote = quote;
         }
     }
 }
+

@@ -108,6 +108,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ic_action_chat.png" />
+    <Content Include="ic_action_new.png" />
+    <Content Include="ic_delete.png" />
+    <Content Include="ic_edit.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
