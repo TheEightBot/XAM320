@@ -5,7 +5,6 @@ using System.Linq;
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using XamarinUniversity.Infrastructure;
-using XamarinUniversity.Interfaces;
 
 namespace GreatQuotes.ViewModels
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
-using XamarinUniversity.Interfaces;
+using XamarinUniversity.Infrastructure;
 
 namespace GreatQuotes
 {

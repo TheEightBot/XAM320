@@ -2,7 +2,7 @@
 using GreatQuotes.ViewModels;
 using GreatQuotes.Data;
 using System.Linq;
-using XamarinUniversity.Interfaces;
+using XamarinUniversity.Infrastructure;
 using XamarinUniversity.Services;
 using Xamarin.Forms.Xaml;
 
@@ -16,6 +16,7 @@ namespace GreatQuotes
         {
             // Register dependencies.
             DependencyService.Register<MainViewModel>();
+            DependencyService.Register<INavigationService, FormsNavigationPageService>();
             // Register standard XamU services
             XamUInfrastructure.Init();
         }

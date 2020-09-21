@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using System;
 using GreatQuotes.ViewModels;
-using XamarinUniversity.Interfaces;
+using XamarinUniversity.Infrastructure;
 
 namespace GreatQuotes
 {

@@ -60,12 +60,15 @@ namespace GreatQuotes.ViewModels
             }
         }
 
-        public IEnumerable<Gender> GenderChoices
+        public List<Gender> GenderChoices
         {
             get
             {
-                yield return Gender.Male;
-                yield return Gender.Female;
+                return new List<Gender>
+                {
+                    Gender.Male,
+                    Gender.Female,
+                };
             }
         }
 

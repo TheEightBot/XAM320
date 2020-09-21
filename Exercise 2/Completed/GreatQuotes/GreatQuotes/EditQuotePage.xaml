@@ -16,12 +16,7 @@
           
           <Entry Text="{Binding FirstName, Mode=TwoWay}" Placeholder="First Name" Grid.Row="0"/>
           <Entry Text="{Binding LastName, Mode=TwoWay}" Placeholder="Last Name" Grid.Row="1"/>
-          <Picker Title="Gender" Grid.Row="2">
-            <Picker.Behaviors>
-              <inf:PickerBindBehavior Items="{Binding GenderChoices}" SelectedItem="{Binding Gender, Mode=TwoWay}" />
-            </Picker.Behaviors>
-            
-          </Picker>
+          <Picker Title="Gender" Grid.Row="2" ItemsSource="{Binding GenderChoices}" SelectedItem="{Binding Gender, Mode=TwoWay}" />
           <Editor Text="{Binding QuoteText, Mode=TwoWay}" Keyboard="Text" Grid.Row="3" />
           <Button Text="Done" Clicked="OnGoBack" Grid.Row="4" />
       </Grid>
